@@ -2,8 +2,10 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-size:large;
 }
 h1{
-    font-family: cursive,fantasy,sans-serif;
+    font-family: cursive,fantasy,Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
+    font-size:220%;
 }
