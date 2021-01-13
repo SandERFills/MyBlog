@@ -9,18 +9,21 @@ h1{
     font-family: cursive,fantasy,Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-size:220%;
-    color: rgb(205, 133, 63) ;
+
 }
 .post{
-    border-top-color: black;
-    border-bottom-color: black;
-    border-top-width: 0.01em;
-    border-bottom-width: 0.01em;
-    border-bottom-style: solid;
-    border-top-style: solid;
+border: 5px inset  rgb(249 247 237  );
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.1em;
     padding: 10em;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+    margin: 0px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+background-color: rgb(250 249 240  );
+    text-align: justify;
+    text-indent: 1.5em; /* Отступ первой строки в пикселах */
+   
+  
 }
