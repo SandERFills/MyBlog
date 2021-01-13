@@ -13,6 +13,7 @@ h1{
 }
 .post{
 border: 5px inset  rgb(238 240 230  );
+border-radius: 5px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.1em;
     padding: 7em;
