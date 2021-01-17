@@ -11,6 +11,9 @@ h1{
     font-size:220%;
 
 }
+hr{
+    color: black;
+}
 .post{
 border: 5px inset  rgb(238 240 230  );
 border-radius: 5px;
@@ -28,4 +31,24 @@ background-color: rgb(250 249 240  );
     line-height: 1.5em;
    
   
+}
+#infoR{
+    float: right;
+}
+#copyright{
+    font-size: x-small;
+    text-align: center;
+    position: absolute ;
+    bottom: 0px;
+    left: 50%;
+
+
+}
+#postscreen{
+    width: 100%;
+}
+#grade{
+    font-size: 2em;
+    padding: 20px;
+    padding-right: 50px;
 }
