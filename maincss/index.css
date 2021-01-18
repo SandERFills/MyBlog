@@ -1,4 +1,5 @@
 
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -38,7 +39,6 @@ background-color: rgb(250 249 240  );
 #copyright{
     font-size: x-small;
     text-align: center;
-    position: absolute ;
     bottom: 0px;
     left: 50%;
 
@@ -60,16 +60,23 @@ background-color: rgb(250 249 240  );
     border: 3px solid black;
 }
 #education{
-    float: right;
-    margin-top: 2px;
-    margin-right: 170px;
-    width: 450px;
+
+    margin: 2px 650px 0px 650px;
+  
     border: 3px solid black;
 }
 
 #exp{
     padding: 15px;
-margin: 0px 650px 10px 650px;
+margin: 3px 300px;
   border: 3px solid black;
   text-align: left;
+}
+@media screen and (max-device-width:1280px){
+    #exp{
+        padding: 15px;
+    margin: 3px 30px;
+      border: 3px solid black;
+
+    }
 }
