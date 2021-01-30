@@ -64,6 +64,7 @@ text-align: left;
 width: 20%;
 display: table-cell;
 vertical-align: top;
+padding-right: 15px;
   /* border-bottom: 1px dotted black;*/
 }
 #education{
@@ -71,14 +72,14 @@ clear: both;
     margin: 16px 50px 0px 50px;
     border-top: 1px dotted black;
     border-bottom: 1px dotted black;
-    display: table-cell;
+
 }
 #quality{
-   margin:15px 0px 15px 550px ;
-    width: 50%;
-    display: table-cell;
+   margin:15px 100px 15px 250px ;
+
+
 }
-#exp{
+section#exp{
     padding: 15px 50px;
 margin-left: 280px;
 margin-right: 10px;
@@ -86,20 +87,15 @@ margin-right: 10px;
   display: table-cell;
   text-align: left;
 }
-#allcontent {
-    width: 1000px;
-    padding:10px ;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(255 250 240  );
-    border-radius: 5px;
-    
-    }
+
     .info-parag{
         border-bottom: 1px dotted black;
         padding-top: 15px;
         padding-bottom: 15px;
         text-align: center;
+    }
+    div#menu-block{
+        background-color: bisque;
     }
     #menu-block a:link{
         color: red;
@@ -115,22 +111,27 @@ margin-right: 10px;
 border-radius: 20px;
 color: blue;
     }
-    #menu-block{
-        position: absolute;
+    nav#menu-block{
+       background-color: bisque;
 
-        top: 200px;
-        left: 30px;
-        width: 150px;
         
     }
-    #menu-block ul{
+    nav#menu-block ul{
     padding: 5px;
     font-size: 170%;
+    list-style-type: none;
     
     }
-    .table{
+    nav#menu-block ul li{
+        display: inline;
+    }
+    span#current-page{
+        background-color: cadetblue;
+    }
+    div#table{
         display: table;
-        margin: 0px 50px 0px 50px;
+        margin: 15px 10px 15px 350px;
+
     }
     .tableRow{
         display: table-row;
@@ -138,7 +139,7 @@ color: blue;
     div.conteiner{
         display: table-cell;
         vertical-align: top;
-        border-spacing: 10px;
+        border-spacing: 20px;
     }
     
 @media screen and (max-device-width:1280px){
@@ -149,6 +150,11 @@ color: blue;
     border-left: 0px dotted black;
 
     }
+    div#table{
+        display: table;
+        margin: 15px 10px 15px 10px;
+
+    }
     #skills{
 float: none;
         margin-top: 2px;
@@ -157,17 +163,10 @@ float: none;
 text-align: center;
        
     }
-    #allcontent {
-        width: auto;
-        padding:10px;
-        margin-left: 0px;
-        margin-right: 0px;
-        border: 0px solid black;
-        }
+
        #skills ul{
             text-align: left;
-            border-right: 1px dotted black ;
-            border-left: 1px dotted black ;
+
            
         }
         .info-parag{
@@ -192,5 +191,8 @@ text-align: center;
         body{
             font-size: 1.3em;
             margin: 15px 0px 15px 0px;
+        }
+        section#quality{
+            margin: auto;
         }
 }
