@@ -1,0 +1,15 @@
+
+    body {
+        font-size: medium;
+     font-family: Times, 'Times New Roman', serif;
+     text-align: left; /* Шрифт с засечками */
+     margin: auto;
+    }
+    h1, h2, p {
+     color: #000; /* Черный цвет текста */
+    }
+    div{
+        display:inline;
+        border: none;
+    }
+   

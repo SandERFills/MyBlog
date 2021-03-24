@@ -4,7 +4,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size:medium;
-    background-color:#778899;
+    background-color:white;
 }
 h1{
     font-family: cursive,fantasy,Verdana, Geneva, Tahoma, sans-serif;
@@ -72,12 +72,13 @@ clear: both;
     margin: 16px 50px 0px 50px;
     border-top: 1px dotted black;
     border-bottom: 1px dotted black;
-
+    background-color: whitesmoke;
+    border-radius: 15px;
 }
 #quality{
    margin:15px 100px 15px 250px ;
-
-
+background-color: whitesmoke;
+border-radius: 15px;
 }
 section#exp{
     padding: 15px 50px;
@@ -86,6 +87,7 @@ margin-right: 10px;
   border-left: 1px dotted black;
   display: table-cell;
   text-align: left;
+
 }
 
     .info-parag{
@@ -126,15 +128,27 @@ color: blue;
         display: inline;
     }
     span#current-page{
-        background-color: cadetblue;
+        border: 3px double red;
+        opacity: 0.9;
     }
     div#table{
         display: table;
         margin: 15px 10px 15px 350px;
-
+        background-color: whitesmoke;
+        border-radius: 15px;
+        padding: 15px;
+        border-spacing: 10px;
     }
     .tableRow{
         display: table-row;
+    }
+    .tableCell{
+        display: table-cell;
+        text-align: left;
+        padding: 20px;
+        /* border:3px inset rgb(204, 203, 203)  ; */
+        border-radius: 4px;
+
     }
     div.conteiner{
         display: table-cell;
@@ -148,12 +162,10 @@ color: blue;
     margin: 3px 30px;
     border-top: 1px dotted black;
     border-left: 0px dotted black;
-
     }
     div#table{
         display: table;
         margin: 15px 10px 15px 10px;
-
     }
     #skills{
 float: none;
@@ -161,19 +173,18 @@ float: none;
         margin-left: 20px;
         margin-right: 20px;
 text-align: center;
-       
     }
 
        #skills ul{
             text-align: left;
-
-           
         }
         .info-parag{
             padding: 15px 50px;
         }
         #menu-block{
-            margin: 15px 30px;
+            margin: 15px 60px;
+            position: fixed ;
+            bottom: 20px;
         }
         .post{
             margin-left: 5px;
@@ -195,4 +206,16 @@ text-align: center;
         section#quality{
             margin: auto;
         }
+        @media screen and (max-device-width:500px){
+            .tableCell{
+                display:unset;
+                text-align: left;
+                padding: 20px;
+                border:none  ;
+                border-radius: 4px;
+                background-color: whitesmoke;
+                
+            }
+        }
+
 }
